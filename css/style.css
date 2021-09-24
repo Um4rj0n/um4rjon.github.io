@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-image: url(../img/header_bg.png);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+}
+
+nav .button_nav {
+    font-weight: 400;
+    color: #fff;
+    border: none;
+    background-color: #68bf3b;
+    border-radius: 30px;
+    font-size: 16px;
+    padding-left: 25px;
+    padding-right: 26px;
+    padding-top: 18px;
+    padding-bottom: 17px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1110px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+
+nav .logo {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+nav .flex_end {
+    display: flex;
+    align-items: center;
+}
+
+nav .tel {
+    margin-right: 50px;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+header .col-7 {
+    margin-left: 111px;
+}
+
+header .header_p {
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 195px;
+    margin-bottom: 35px;
+}
+
+header h2 {
+    display: block;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 64px;
+    margin-bottom: 29px;
+}
+
+header .price_heade {
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+header .header_but {
+    display: block;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    background-color: #4fa40a;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 257px;
+}
+
+/* ===================== MENUA ======================*/
+.menua .texnology .podpis {
+    width: 450px;
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.menua .texnology {
+    display: flex;
+}
+
+.menua .texnology h2 {
+    margin-top: 63px;
+    color: #68bf3b;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 64px;
+}
+
+.menua .texnology p {
+    color: #bdbdbd;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 0;
+}
+
+.menua .texnology .podpis h3 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #bdbdbd;
+    text-align: center;
+    margin-top: 75px;
+}
+
+section .menu {
+    display: flex;
+}
+
+section .menu .col-4 h2 {
+    margin-top: 30px;
+    font-weight: 700;
+    color: #a6a6a6;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+section .menu .col-4 p {
+    font-size: 14px;
+    color: #a6a6a6;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+section .menu .col-4 .info {
+    margin-top: 30px;
+}
+
+section .meus {
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-size: 36px;
+    color: #68cd16;
+    font-weight: 700;
+}
+
+section .menu .price_menu .bnnuu {
+    display: block;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    background-color: #52a90c;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 257px;
+}
+
+section .menu .price_menu p span {
+    color: #a6a6a6;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+section .menu .price_menu p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #a6a6a6;
+    margin-bottom: 28px;
+    margin-left: 36px;
+    margin-top: 48px;
+}
+
+section .menu {
+    height: 250px;
+    margin-bottom: 50px;
+}
+
+.otzivs .girl_1 p,
+.otzivs .girl_2 p,
+.otzivs .girl_3 p {
+    width: 350px;
+    text-align: center;
+}
+
+.otzivs {
+    display: flex;
+}
+
+.otzivs .girl_2 {
+    margin-left: 30px;
+}
+
+.otzivs .girl_3 {
+    margin-left: 30px;
+}
+.otzivs .girl_1 h2,
+.otzivs .girl_2 h2,
+.otzivs .girl_3 h2{
+    margin-top: 28px;
+    font-weight: 700;
+    color: #a6a6a6;
+    font-size: 26px;
+    }
+    footer {
+        background-color: black;
+}
+
+footer p {
+    display: block;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 100;
+    margin: auto;
+    text-align: center;
+    margin-top: 51px;
+    padding-bottom: 55px;
+}
+footer nav {
+    color: #fff;
+}
+/* =============================
+        MEDIA START
+==================================== */
+
+
+/* lg 992 <= 1199 */
+@media(max-width: 1199px){
+    nav .tel {
+        margin-right: 9px;
+    }
+    .menua .texnology h2{
+        margin-bottom: 60px;
+        font-size: 32px;
+    }
+    .menua .texnology p{
+        line-height: 32px;
+    }
+    .menua .texnology .podpis h3{
+        margin-top: 70px;
+        font-size: 23px;
+    }
+    section .menu .col-4 h2 {
+        margin-top: 30px;
+        font-weight: 700;
+        color: #a6a6a6;
+        font-size: 28px;
+        text-transform: uppercase;
+    }
+    section .menu .col-4 .info {
+        margin-top: 15px;
+    }
+    section .menu .price_menu{
+        margin-left: 45px;
+    }
+    .otzivs .girl_1 img,
+    .otzivs .girl_2 img,
+    .otzivs .girl_3 img{
+        width: 0;
+        width: 270px;
+    }
+    .otzivs{
+        display: flex;
+        justify-content: center ;
+    }
+
+}
+/* md 768 <= 991 */
+@media(max-width: 991px){
+    header h2{
+    font-size: 52px;
+    line-height: 38px;
+    margin-bottom: 21px;
+    }
+    header .price_heade{
+        margin-bottom: 33px;
+    }
+}
+/* sm 576 <= 767 */
+@media(max-width: 767px){
+
+}
+/* xs <= 575 */
+@media(max-width){
+
+}
